@@ -619,7 +619,7 @@
             </div>
 
             <div class="gallery-item">
-                <div class="video-thumbnail" onclick="openVideoModal('video2')" style="background: linear-gradient(135deg, #0a0a0a 0%, #0066ff 100%);">
+                <div class="video-thumbnail" onclick="openVideoModal('youtube2')" style="background-image: url('https://img.youtube.com/vi/YSPYMsoATEI/maxresdefault.jpg'); background-size: cover; background-position: center;">
                     <div class="play-button">▶</div>
                 </div>
                 <div class="gallery-overlay">
@@ -629,7 +629,7 @@
             </div>
 
             <div class="gallery-item">
-                <div class="video-thumbnail" onclick="openVideoModal('video3')" style="background: linear-gradient(135deg, #000000 0%, #00d4ff 100%);">
+                <div class="video-thumbnail" onclick="openVideoModal('youtube3')" style="background-image: url('https://img.youtube.com/vi/WhIgfGntp28/maxresdefault.jpg'); background-size: cover; background-position: center;">
                     <div class="play-button">▶</div>
                 </div>
                 <div class="gallery-overlay">
@@ -730,6 +730,20 @@
         <div class="modal-content">
             <span class="modal-close" onclick="closeVideoModal('youtube1')">&times;</span>
             <iframe width="100%" height="480" src="https://www.youtube.com/embed/itLd48VOtvc" title="Wedding Content" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <div id="youtubeModal2" class="video-modal" onclick="closeVideoModal('youtube2', event)">
+        <div class="modal-content">
+            <span class="modal-close" onclick="closeVideoModal('youtube2')">&times;</span>
+            <iframe width="100%" height="480" src="https://www.youtube.com/embed/YSPYMsoATEI" title="Corporate Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <div id="youtubeModal3" class="video-modal" onclick="closeVideoModal('youtube3', event)">
+        <div class="modal-content">
+            <span class="modal-close" onclick="closeVideoModal('youtube3')">&times;</span>
+            <iframe width="100%" height="480" src="https://www.youtube.com/embed/WhIgfGntp28" title="Music Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
     </div>
 
